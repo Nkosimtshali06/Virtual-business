@@ -1,0 +1,87 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #4c6ef5, #bb67ff);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Login screen styling */
+.login-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+  font-size: 2rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #5a3aff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #7d63ff;
+}
+
+/* Dashboard styling */
+.dashboard header {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.dashboard .business-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dashboard button {
+  padding: 10px;
+  background-color: #ff6363;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard button:hover {
+  background-color: #ff8686;
+}
+
+footer {
+  margin-top: 20px;
+  }
