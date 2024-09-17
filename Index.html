@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Virtual Business App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="login-container" id="login">
+      <h1>Welcome to Virtual Business</h1>
+      <input type="text" id="username" placeholder="Enter your username">
+      <button id="loginBtn">Login</button>
+    </div>
+
+    <div class="dashboard hidden" id="dashboard">
+      <header>
+        <h2>Hello, <span id="user-name"></span></h2>
+      </header>
+      <div class="business-container">
+        <h3>Your Business</h3>
+        <p>Coins: <span id="coins">100</span></p>
+        <button id="startBusiness">Start Business</button>
+      </div>
+      <div class="ad-container">
+        <button id="watchAdBtn">Watch Ad for Coins</button>
+      </div>
+      <footer>
+        <p>© 2024 Virtual Business Inc.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
